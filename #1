@@ -1,0 +1,13 @@
+print("hello, what is your name?")
+name = input()  
+print("what is your age")
+age = input()
+print("name," + " you are " + age + " years old now")
+print("DO you want to choose a number and play a game?")
+answer = input()
+if answer == "yes":
+    print("pick a number between from 1 to 5")
+    number = input()
+    print("I guess your number will be " + number)
+elif answer == "no":
+    print("sorry, bye")
